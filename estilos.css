@@ -1,0 +1,48 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+  }
+  
+  
+  body {
+    font-family: bebas kai;
+    background-image:url('https://www.infoescola.com/wp-content/uploads/2010/03/girassol_210235387.jpg');
+    
+  }
+  
+  .menu {
+    position: fixed;
+    width: 100vw;
+    top:0; 
+  background-color: #FFD217  
+      }
+  
+  .menu li {
+    list-style: none; 
+  }
+  
+  .menu ul {
+    display: flex;
+    justify-content: space-around; 
+  }
+  
+  a {
+    color: #AA0F59;
+    text-decoration:none; 
+  }
+  
+  a:hover {
+    text-decoration: underline; 
+   }
+  
+  .site-title, 
+  .site-subtitle {
+    color: #AA0F59;
+    text-align: center;
+   }
+  
+   .site-subtitle {
+    color: black 
+  }
+  
